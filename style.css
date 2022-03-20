@@ -1,0 +1,30 @@
+.navbar-brand{
+    background: #39c9bb;
+}
+
+
+
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #39c9bb;
+  }
+  
+  .white {
+    background: #fff;
+  }
+p{
+    color: #808080;
+}
+img{
+    max-width: 95%;
+    max-height: 100%;
+    /* display: block;  */
+    /* remove extra space below image */
+}
+
+body{
+    color:#ededed;
+}
