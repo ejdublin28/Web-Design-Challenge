@@ -37,20 +37,52 @@
       </div>
     </div>
   </nav>
-  <div class="table-responsive-lg">
-    <div class="col-lg-9" style="align-self: center;">
+  <!-- Below the Navbar -->
+  <div class="container">
+    <!--Columns for content-->
+    <div class="row">
+      <div class="col-lg-7">
         <div class="box white">
-            <h2>Data</h2>
+            <h1> Cloudiness</h1>
             <hr>
-            <p>The following table includes all of the data used in the plots and analysis for this project </p>
-            <table class="table">
-                ...
-            </table>
+            <img src="assets/images/Fig3.png">
+            <p>There is a weak correlation between latitude and cloudiness. While these results do not show a strong relationship between cloudiness and latitude, cloudiness is more frequent at the extremes (less than 25% or greater than 75%).</p>
+        </div>
+
+      </div>
+      <div class="col-lg-5">
+        <div class="box white">
+            <h2>Visualizations</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-sm-3">
+                    <a href="MaxTemp.html">
+                        <img src="assets/images/Fig1.png">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-3">
+                    <a href="Humidity.html">
+                        <img src="assets/images/Fig2.png">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-3">
+                    <a href="Cloudiness.html">
+                        <div class="selected">
+                        <img src="assets/images/Fig3.png">
+                        </div>  
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-3">
+                    <a href="WindSpeed.html">
+                        <img src="assets/images/Fig4.png">
+                    </a>
+                </div>
+              </div>
         </div>
       </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
