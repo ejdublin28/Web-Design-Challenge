@@ -3,16 +3,19 @@
 }
 
 
+body{
+    background-color:#ededed;
+}
 
 .box {
-    min-height: 50px;
     padding: 5px;
     margin: 5px;
     font-weight: 800;
     color: #39c9bb;
+    background-color: #fff;
   }
   
-  .white {
+.white {
     background: #fff;
   }
 p{
@@ -21,10 +24,4 @@ p{
 img{
     max-width: 95%;
     max-height: 100%;
-    /* display: block;  */
-    /* remove extra space below image */
-}
-
-body{
-    color:#ededed;
 }
