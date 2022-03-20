@@ -20,12 +20,14 @@ body{
   }
 p{
     color: #808080;
+    font-weight: 500;
 }
 img{
     max-width: 95%;
     max-height: 100%;
 }
 h3{
-    font-size: medium;
+    font-size: large;
     text-align: center;
+    font: bolder;
 }
